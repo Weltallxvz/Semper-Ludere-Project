@@ -4,16 +4,6 @@
 
     Feel free to customize this file to suit your needs
 */
-#ifdef OS_WINDOWS
-#include "main.h"
-
-int main (int argc, char **argv)
-{
-    return SDL_main(int argc, char **argv);
-}
-
-
-#else
 
 #include <SDL/SDL.h>
 #include "SDLMain.h"
@@ -388,6 +378,4 @@ int main (int argc, char **argv)
 #endif
     return 0;
 }
-
-#endif
 
