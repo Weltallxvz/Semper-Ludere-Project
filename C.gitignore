@@ -1,0 +1,13 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+
+# Shared objects (inc. Windows DLLs)
+*.so
+
+# Executables
+*.exe
+*.out
+
